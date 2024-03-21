@@ -9,10 +9,12 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 
 ## Challenges name list
 - Recipe Page
+- QR-Card
 ## Live demo
 | challenge name | live demo link |
 | -------------- | -------------- |
-| Recipe Page    | [recipe page demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/Recipe-Page/)
+| Recipe Page    | [recipe page demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/Recipe-Page/) |
+| QR-Card        | [QR card demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/QR-Card/)
 ## Built with
 - Html & semantic Html5 markup
 - Css & css custom properties
