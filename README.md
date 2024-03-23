@@ -11,12 +11,14 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 - Recipe Page
 - QR-Card
 - NFT-Preview-Card
+- 3-Column-Preview-Card-Component
 ## Live demo
 | challenge name | live demo link |
 | -------------- | -------------- |
-| Recipe Page    | [recipe page demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/Recipe-Page/) |
-| QR-Card        | [QR card demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/QR-Card/)
-| NFT-Preview-Card        | [NFT-Preview-Card](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/NFT-Preview-Card/)
+| Recipe Page | [recipe page demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/Recipe-Page/) |
+| QR-Card | [QR card demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/QR-Card/)
+| NFT-Preview-Card | [NFT-Preview-Card](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/NFT-Preview-Card/)
+| 3-Column-Preview-Card-Component | [3-Column-Preview-Card-Component](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/3-Column-Preview-Card-Component/)
 ## Built with
 - Html & semantic Html5 markup
 - Css & css custom properties
