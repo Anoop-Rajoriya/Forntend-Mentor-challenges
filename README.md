@@ -12,6 +12,7 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 - QR-Card
 - NFT-Preview-Card
 - 3-Column-Preview-Card-Component
+- social-links-profile
 ## Live demo
 | challenge name | live demo link |
 | -------------- | -------------- |
@@ -19,6 +20,8 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 | QR-Card | [QR card demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/QR-Card/)
 | NFT-Preview-Card | [NFT-Preview-Card](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/NFT-Preview-Card/)
 | 3-Column-Preview-Card-Component | [3-Column-Preview-Card-Component](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/3-Column-Preview-Card-Component/)
+| social-links-profile | [social-links-profile](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/social-links-profile/)
+
 ## Built with
 - Html & semantic Html5 markup
 - Css & css custom properties
