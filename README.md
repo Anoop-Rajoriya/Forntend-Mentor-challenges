@@ -13,14 +13,16 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 - NFT-Preview-Card
 - 3-Column-Preview-Card-Component
 - social-links-profile
+- Blog-preview-card
 ## Live demo
 | challenge name | live demo link |
 | -------------- | -------------- |
 | Recipe Page | [recipe page demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/Recipe-Page/) |
-| QR-Card | [QR card demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/QR-Card/)
-| NFT-Preview-Card | [NFT-Preview-Card](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/NFT-Preview-Card/)
-| 3-Column-Preview-Card-Component | [3-Column-Preview-Card-Component](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/3-Column-Preview-Card-Component/)
-| social-links-profile | [social-links-profile](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/social-links-profile/)
+| QR-Card | [QR card demo](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/QR-Card/) |
+| NFT-Preview-Card | [NFT-Preview-Card](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/NFT-Preview-Card/) |
+| 3-Column-Preview-Card-Component | [3-Column-Preview-Card-Component](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/3-Column-Preview-Card-Component/) |
+| social-links-profile | [social-links-profile](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/social-links-profile/) |
+| Blog-preview-card | [Blog-preview-card](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/Blog-preview-card/) |
 
 ## Built with
 - Html & semantic Html5 markup
