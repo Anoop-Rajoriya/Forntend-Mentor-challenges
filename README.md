@@ -14,6 +14,7 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 - 3-Column-Preview-Card-Component
 - social-links-profile
 - Blog-preview-card
+- Result-summary-component
 ## Live demo
 | challenge name | live demo link |
 | -------------- | -------------- |
@@ -23,6 +24,7 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 | 3-Column-Preview-Card-Component | [3-Column-Preview-Card-Component](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/3-Column-Preview-Card-Component/) |
 | social-links-profile | [social-links-profile](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/social-links-profile/) |
 | Blog-preview-card | [Blog-preview-card](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/Blog-preview-card/) |
+| Result-summary-component | [Result-summary-component](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/Result-summary-component/) |
 
 ## Built with
 - Html & semantic Html5 markup
