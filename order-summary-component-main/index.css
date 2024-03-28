@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    font-family: "Red Hat Display", sans-serif;
+    /* color: hsl(225, 100%, 94%); */
+    --primary-white: hsl(0, 0%, 100%);
+    --primary-bright-blue: hsl(245, 75%, 52%);
+    --primary-color: var(--primary-color);
+    --neutral-pale-blue: hsl(225, 100%, 98%);
+    --neutral-color: hsl(224, 23%, 55%);
+
+
+}
+
+/* *********************** section 1 *********************** */
+
+.component-wraper {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: hsla(223, 88%, 94%, 0.576);
+}
+
+.component-wraper > img {
+    position: absolute;
+    display: none;
+    z-index: -1;
+    height: 40%;
+    width: 100%;
+}
+
+.component-wraper > img:nth-child(1) {
+    display: block;
+}
+
+.card-wraper {
+    margin: auto;
+    padding: 1rem;
+}
+.card {
+    min-height: 570px;
+    max-width: 405px;
+    overflow: hidden;
+    border-radius: 1rem;
+    background-color: var(--primary-white);
+    box-shadow: 0 20px 20px hsla(224, 23%, 55%, 0.301);
+}
+.card > img {
+    width: 100%;
+}
+
+.card > section {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card > section > p:nth-child(1) {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.card > section > p:nth-child(2) {
+    color: var(--neutral-color);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: .8rem;
+}
+
+.card > section > section {
+    background-color: var(--neutral-pale-blue);
+    width: 100%;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    margin: 1rem;
+}
+
+.card > section > section > div:nth-child(2) {
+       font-size: 1rem;
+       font-weight: 800;
+       color: var(--primary-color);
+}
+.card > section > section > div:nth-child(2) > p:nth-child(2) {
+    font-weight: 500;
+    color: var(--neutral-color);
+    font-size: .95rem;
+}
+
+.card > section > section > a {
+    font-size: .8rem;
+    font-weight: 800;
+    color: #564EA3;
+}
+
+.card > section > button {
+    border: none;
+    outline: none;
+
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: #F9F9FF;
+    font-weight: 800;
+    background-color: var(--primary-bright-blue);
+    border-radius: .5rem;
+
+    box-shadow: 0 20px 20px hsla(224, 23%, 55%, 0.301);
+    transition: background-color 80ms ease-in-out, font-size 80ms ease-in-out;
+}
+
+.card > section > button:nth-child(5) {
+    box-shadow: none;
+    background-color: transparent;
+    color: var(--neutral-color);
+    margin-top: 1rem;
+}
+
+/* *********************** section 2 *********************** */
+
+.card > section > section > a:hover,
+.card > section > section > a:focus {
+    color: var(--neutral-color);
+}
+
+.card > section > button:nth-child(4):hover,
+.card > section > button:nth-child(4):focus {
+    background-color: #766CF1;
+}
+
+.card > section > button:nth-child(5):hover,
+.card > section > button:nth-child(5):focus {
+    color: hsl(224, 23%, 20%);
+}
