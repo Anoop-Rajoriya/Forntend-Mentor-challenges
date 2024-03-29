@@ -38,5 +38,5 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 - Mobile first workflow
 ## Author
 - Website - [Anoop Rajoriya](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Anoop Rajoriya](https://www.frontendmentor.io/profile/Anoop-Rajoriya)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
