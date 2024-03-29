@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --wraper-bg: #0A0C1B;
+    --component-bg: #1C1938;
+    --color-1: #FEFFFB;
+    --color-2: #ffffffbf;
+    --color-4: hsla(0, 0%, 100%, .6);
+    --color-3: #9D66CB;
+    --font-Inter: "Inter", sans-serif;
+    --font-Lexend-Deca: "Lexend Deca", sans-serif;
+}
+/* *********************** section 1 *********************** */
+
+.component-wraper {
+    background-color: var(--wraper-bg);
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    padding: 4rem 1rem;
+    color: var(--color-2);
+}
+
+.component {
+    max-width: 400px;
+    background-color: var(--component-bg);
+    border-radius: .5rem;
+    overflow: hidden;
+    margin: auto;
+}
+.component > section:nth-child(1) > img{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.component > section:nth-child(1){
+    position: relative;
+
+}
+.component > section:nth-child(1)::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 98%, 32%, 0.438);
+
+}
+
+.component > section:nth-child(1) > img:nth-child(1) {
+    display: block;
+}
+
+.component > section:nth-child(2) {
+    padding: 2rem;
+    font-family: var(--font-Inter);
+    color: var(--color-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.component > section:nth-child(2) > p:nth-child(1) {
+    color: var(--color-1);
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.component > section:nth-child(2) > p:nth-child(1) > span {
+    color: var(--color-3);
+}
+
+.component > section:nth-child(2) > p:nth-child(2){
+    font-size: .95rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.component > section:nth-child(2) > section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.component > section:nth-child(2) > section > section > p {
+    text-align: center;
+    font-family: var(--font-Lexend-Deca);
+    margin-bottom: .2rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: var(--color-4);
+}
+
+.component > section:nth-child(2) > section > section > p:nth-child(1) {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-1);
+}
+/* *********************** section 2 *********************** */
+
+@media (min-width: 800px) {
+
+    .component {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1000px;
+    }
+
+    .component > section {
+        max-width: 50%;
+        min-height: 100%;
+    }
+
+    .component > section:nth-child(1) > img:nth-child(1) {
+        display: none;
+    }
+    .component > section:nth-child(1) > img:nth-child(2) {
+        display: block;
+    }
+
+    .component > section:nth-child(2) > p:nth-child(1),
+    .component > section:nth-child(2) > p:nth-child(2){
+        text-align: left;
+    }
+    .component > section:nth-child(2) > section {
+        flex-direction: row;
+        justify-content: left;
+        gap: 3.5rem;
+    }
+    .component > section:nth-child(2) > section > section{
+        flex-direction: row;
+    }
+}
