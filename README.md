@@ -17,6 +17,7 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 - Result-summary-component
 - product-preview-card-component-main
 - Order summary component
+- stats-preview-card-component-main
 ## Live demo
 | challenge name | live demo link |
 | -------------- | -------------- |
@@ -29,6 +30,8 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 | Result-summary-component | [Result-summary-component](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/Result-summary-component/) |
 | product-preview-card-component-main | [product-preview-card-component-main](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/product-preview-card-component-main/) |
 | Order summary component | [Order summary component](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/order-summary-component-main/) |
+| stats-preview-card-component-main | [stats-preview-card-component-main](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/stats-preview-card-component-main/) |
+
 ## Built with
 - Html & semantic Html5 markup
 - Css & css custom properties
