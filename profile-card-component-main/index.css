@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%) ;
+    --card-bg: #F6F6F6;
+    --wraper-bg: #1ba1ad;
+    --font-family: "Kumbh Sans", sans-serif;
+}
+
+/* *********************** section 1 *********************** */
+
+.card-wraper {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: var(--wraper-bg);
+    overflow: hidden;
+}
+
+.card-wraper > img {
+    position: absolute;
+}
+.card-wraper > img:nth-child(1) {
+    top: -80%;
+    left: -30%;
+}
+.card-wraper > img:nth-child(2) {
+    bottom: -80%;
+    right: -30%;
+}
+
+.card {
+    max-width: 330px;
+    min-height: 375px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 1rem;
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: var(--card-bg);
+}
+
+.card > section:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--Dark-gray);
+}
+
+.card > section:nth-child(2) > .img {
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    overflow: hidden;
+    border: .5rem solid var(--card-bg);
+    transform: translateY(-50%);
+    position: absolute;
+}
+.card > section:nth-child(2) > p:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--Very-dark-desaturated-blue);
+    text-transform: capitalize;
+    margin-top: 4.5rem;
+}
+.card > section:nth-child(2) > p:nth-child(2) > span{
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+}
+
+.card > section:nth-child(2) > p:nth-child(3){
+    color: var(--Dark-grayish-blue);
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 400;
+    margin: .4rem;
+    margin-bottom: 2rem;
+}
+
+
+.card > section:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.card > section:nth-child(3) > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card > section:nth-child(3) > p > span {
+    font-size: .6rem;
+    color: var(--Dark-gray);
+    text-transform: capitalize;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
