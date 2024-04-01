@@ -19,6 +19,7 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 - Order summary component
 - stats-preview-card-component-main
 - profile-card-component-main
+- social-proof-section-master
 ## Live demo
 | challenge name | live demo link |
 | -------------- | -------------- |
@@ -33,6 +34,7 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 | Order summary component | [Order summary component](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/order-summary-component-main/) |
 | stats-preview-card-component-main | [stats-preview-card-component-main](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/stats-preview-card-component-main/) |
 | profile-card-component-main | [profile-card-component-main](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/profile-card-component-main/) |
+|social-proof-section-master | [social-proof-section-master](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/social-proof-section-master/) |
 
 ## Built with
 - Html & semantic Html5 markup
