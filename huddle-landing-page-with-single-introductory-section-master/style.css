@@ -1,0 +1,166 @@
+/* *********************** section 1 *********************** */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --poppins-font: "Poppins", sans-serif;
+    --redHatDisplay-font: "Red Hat Display", sans-serif;
+
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+    --white: hsl(0, 0%, 100%);
+}
+/* *********************** section 2 *********************** */
+.page-wraper {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-image: url(./images/bg-mobile.svg);
+    background-color: var(--violet);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2rem;
+}
+
+
+header > img{
+    width: 9rem;
+}
+
+
+main {
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > img {
+    max-width: 100%;
+    margin-bottom: 3rem;
+}
+main > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > section > h2 {
+    font-family: var(--poppins-font);
+    font-weight: 600;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+main > section > p {
+    font-family: var(--redHatDisplay-font);
+    font-size: 1.2rem;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+main > section > a {
+    display: block;
+    width: 70% ;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--violet);
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius:  2rem;
+}
+
+main > section > a:hover,
+main > section > a:focus {
+    background-color: var(--soft-magenta);
+    color: var(--white);
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+footer > a{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--white);
+    outline: 1px solid var(--white);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > a:hover,
+footer > a:focus {
+    color: var(--soft-magenta);
+    outline: 1px solid var(--soft-magenta);
+}
+/* *********************** section 3 *********************** */
+
+@media (min-width: 800px) {
+
+    main > section {
+        align-items: center;
+    }
+    main > section > h2 {
+        font-size: 40px;
+        max-width: 80%;
+    }
+    
+    main > section > p {
+        max-width: 70%;
+    }
+    
+    main > section > a {
+        max-width: 50%;
+    }
+    
+    footer {
+        margin-top: 0;
+    }
+}
+/* *********************** section 4 *********************** */
+
+@media (min-Width: 1000px) {
+
+    .page-wraper {
+        padding-bottom: 0;
+    }
+    footer{
+        padding: .5rem;
+    }
+
+    main {
+        flex-direction: row;
+    }
+    main > img {
+        max-width: 50%;
+        margin: 0;
+    }
+    main > section {
+        align-items: start;
+        padding-left: 2rem;
+    }
+    main > section > p,
+    main > section > h2 {
+        text-align: start;
+    }
+    main > section > a {
+        width: 35%;
+    }
+    footer {
+        justify-content: end;
+    }
+}
