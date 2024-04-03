@@ -21,6 +21,7 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 - profile-card-component-main
 - social-proof-section-master
 - four-card-feature-section-master
+- single-price-grid-component-master
 ## Live demo
 | challenge name | live demo link |
 | -------------- | -------------- |
@@ -37,6 +38,7 @@ This repo provide solutions of Frontend Mentor. [Heres only Free & Free+, Newbe,
 | profile-card-component-main | [profile-card-component-main](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/profile-card-component-main/) |
 |social-proof-section-master | [social-proof-section-master](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/social-proof-section-master/) |
 | four-card-feature-section-master | [four-card-feature-section-master](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/four-card-feature-section-master/) |
+| single-price-grid-component-master | [single-price-grid-component-master](https://anoop-rajoriya.github.io/Forntend-Mentor-challenges/single-price-grid-component-master/) |
 
 ## Built with
 - Html & semantic Html5 markup
